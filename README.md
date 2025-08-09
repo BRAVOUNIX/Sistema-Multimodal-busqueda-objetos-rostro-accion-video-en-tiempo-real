@@ -11,3 +11,5 @@ Sistema de escritorio con visión por computadora y LLMs
 ```bash
 conda env create -f environment.yml
 conda activate nova-desktop
+
+![Login del sistema](img/login.jpg)
