@@ -12,4 +12,4 @@ Sistema de escritorio con visión por computadora y LLMs
 conda env create -f environment.yml
 conda activate nova-desktop
 
-![Login del sistema](img/login.jpg)
+![Login del sistema](img/login.JPG)
