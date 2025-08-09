@@ -1,0 +1,10 @@
+{"timestamp": "2025-08-06T10:00:57.965163", "level": "INFO", "message": "Ventana de login cerrada", "module": "login_window", "function": "closeEvent", "line": 95, "thread": "MainThread"}
+{"timestamp": "2025-08-06T10:02:43.713639", "level": "INFO", "message": "Intento de login para usuario: luis", "module": "auth_controller", "function": "authenticate", "line": 14, "thread": "MainThread"}
+{"timestamp": "2025-08-06T10:02:43.772559", "level": "INFO", "message": "Usuario autenticado: luis", "module": "login_window", "function": "authenticate", "line": 74, "thread": "MainThread"}
+{"timestamp": "2025-08-06T10:02:43.773563", "level": "INFO", "message": "Usuario autenticado: luis (Perfil: 0)", "module": "main", "function": "on_login_success", "line": 34, "thread": "MainThread"}
+{"timestamp": "2025-08-06T10:02:43.778546", "level": "INFO", "message": "Ventana de login cerrada", "module": "login_window", "function": "closeEvent", "line": 95, "thread": "MainThread"}
+{"timestamp": "2025-08-06T10:02:45.344335", "level": "INFO", "message": "Ventana principal creada para luis (Perfil: 0)", "module": "main_window", "function": "__init__", "line": 201, "thread": "MainThread"}
+{"timestamp": "2025-08-06T10:04:52.833985", "level": "INFO", "message": "Ventana de gestión de rostros creada para luis", "module": "img_rostro_window", "function": "__init__", "line": 323, "thread": "MainThread"}
+{"timestamp": "2025-08-06T10:17:02.645173", "level": "INFO", "message": "Ventana de gestión de rostros creada para luis", "module": "img_rostro_window", "function": "__init__", "line": 323, "thread": "MainThread"}
+{"timestamp": "2025-08-06T10:17:02.648166", "level": "INFO", "message": "Todas las conexiones de la pool cerradas", "module": "database", "function": "close_all_connections", "line": 54, "thread": "MainThread"}
+{"timestamp": "2025-08-06T10:36:18.956679", "level": "INFO", "message": "Ventana principal cerrada para usuario: luis", "module": "main_window", "function": "closeEvent", "line": 294, "thread": "MainThread"}
