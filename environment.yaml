@@ -1,0 +1,18 @@
+name: nova-desktop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - pyqt6
+    - opencv-python
+    - opencv-contrib-python
+    - numpy
+    - ultralytics
+    - openai
+    - speechrecognition
+    - pyttsx3
+    - psycopg2
+    - python-dotenv
