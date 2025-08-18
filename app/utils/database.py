@@ -17,10 +17,10 @@ class Database:
             return psycopg2.pool.SimpleConnectionPool(
                 minconn=1,
                 maxconn=10,
-                host=os.getenv("DB_HOST", "192.168.100.222"),
-                database=os.getenv("DB_NAME", "nova_db"),
-                user=os.getenv("DB_USER", "postgres"),
-                password=os.getenv("DB_PASSWORD", "1234"),
+                host=os.getenv("DB_HOST", "IPBD"),
+                database=os.getenv("DB_NAME", "nombredb"),
+                user=os.getenv("DB_USER", "userdb"),
+                password=os.getenv("DB_PASSWORD", "passwd"),
                 port=os.getenv("DB_PORT", "5432"),
                 options="-c client_encoding=UTF8"
             )
